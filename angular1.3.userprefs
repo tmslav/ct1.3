@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{21012205-1249-48C2-986E-8DFEFDB342AE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="angular1.3/app/views/car-offers.html">
+    <Files>
+      <File FileName="angular1.3/Views/Shared/_Layout.cshtml" Line="13" Column="3" />
+      <File FileName="angular1.3/app/controller/carOffersCtr.js" Line="11" Column="31" />
+      <File FileName="angular1.3/app/controller/carDetailCtr.js" Line="4" Column="47" />
+      <File FileName="angular1.3/app/app.js" Line="29" Column="24" />
+      <File FileName="angular1.3/app/views/carDetail.html" Line="4" Column="18" />
+      <File FileName="angular1.3/app/views/car-offers.html" Line="7" Column="70" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.angular1.3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,20 @@
+﻿<div>
+    <ul ng-if="cars" class="carsOffers">
+
+        <li ng-repeat="car in cars">
+            <div class="carsOffers__item carsOffers__item--hover">
+                <div>
+                    <a ng-click="selectCar(car)" ng-href="/#!/detail/">
+                        <img class="carsOffers__Image" ng-src="/Content/{{car.img}}" />
+                    </a>
+                    <div class="carsOffers__Name">
+                        {{car.name}}
+                    </div>
+                </div>
+                <div class="carsOffers__price">
+                    <span class="carsOffers__price_text">Price: </span>{{car.price}} Kn
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

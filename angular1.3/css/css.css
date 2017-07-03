@@ -1,0 +1,264 @@
+﻿bo.navbar {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: #49bcab;
+    z-index: 1;
+}
+
+
+.navbar__item {
+    list-style-type: none;
+    float: right;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    padding-right: 1%;
+}
+
+    .navbar__item > a {
+        color: #fff;
+        padding: 5px;
+        margin: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+.navbar__item--logo {
+    position: absolute;
+    color: hsla(206, 77%, 10%, 0.83);
+    ;
+    top: 10px;
+    left: 30px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 25px;
+    line-height: 1.4em;
+    font-family: raleway, sans-serif;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+@media (max-width:1000px) {
+    .navbar__item--logo {
+        display: none;
+    }
+
+    .navbar__items {
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-left: 0px;
+        width: 300px;
+    }
+}
+
+
+
+
+.info__slider {
+    width: 100%;
+    height: 450px;
+    background: url("/Content/slide-show1.jpg") no-repeat center;
+    opacity: 0.8;
+    margin: 0;
+    position: relative;
+    top: -10px;
+    border-bottom: 5px solid #afafba;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.slider__text {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-top: 410px;
+    opacity: 0;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 2s ease-in-out;
+}
+
+.slider__text--small {
+    font-size: 15px;
+    text-transform: none;
+}
+
+.no_opacity {
+    opacity: 0;
+}
+
+.slider__text--animate {
+    padding-top: 30px;
+    opacity: 1;
+}
+
+.info__detail {
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+}
+
+    .info__detail > div {
+        padding: 10px;
+    }
+
+@media (max-width:700px) {
+    .slider__text {
+        font-size: 20px;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .slider__text--small {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1000px) {
+    .info__detail {
+        width: 100%;
+    }
+}
+
+@media (max-width:680px) {
+    .info__detail {
+        display: inherit;
+    }
+
+        .info__detail > div > h2 {
+            text-align: center;
+        }
+}
+
+
+
+.carsOffers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.carsOffers__row {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 30%;
+}
+
+.carsOffers__Image {
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 192px;
+}
+
+.carsOffers__item {
+    opacity: 0.9;
+    border-bottom: 1px solid green;
+    border-top: 1px solid green;
+    border-radius: 15%;
+    margin: 5%;
+}
+
+.carsOffers__price {
+    color: green;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.carsOffers__price_text {
+    color: white;
+}
+
+.carsOffers__Name {
+    font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.carsOffers__item--hover {
+    transition: all .5s ease-in-out;
+}
+
+    .carsOffers__item--hover:hover {
+        transform: scale(1.1);
+        -moz-box-shadow: inset 0 0 13px white;
+        -webkit-box-shadow: inset 0 0 13px white;
+        box-shadow: inset 0 0 13px white;
+        border: none;
+        opacity: 1;
+    }
+
+@media (max-width: 1000px) {
+    .carsOffers {
+        display: no-wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carsOffers__Image {
+        max-height: 100%%;
+        max-width: 700px;
+    }
+}
+
+
+.carDetails_block {
+    display: flex;
+}
+
+.carDetails__picture {
+    flex: 1;
+    width: 100%;
+}
+
+.carDetails__info {
+    padding: 5%;
+    flex: 1;
+}
+
+.carDetails__wrapper > h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+.carDetails__info--specs {
+    padding-top: 0px;
+}
+
+.carDetails_back > button {
+    font-size: 50px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+}
+
+@media (max-width: 1200px) {
+    .carDetails__picture {
+        flex: 1;
+    }
+
+    .carDetails_info {
+        padding: 0;
+    }
+
+    .carDetails_block {
+        display: inherit;
+    }
+}
