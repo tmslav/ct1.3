@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angular1.3", "angular1.3\angular1.3.csproj", "{21012205-1249-48C2-986E-8DFEFDB342AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angular1.3.Tests", "angular1.3.Tests\angular1.3.Tests.csproj", "{6D1B1D92-6533-439D-84D5-BB5F9AF95D79}"
@@ -19,5 +20,11 @@ Global
 		{6D1B1D92-6533-439D-84D5-BB5F9AF95D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D1B1D92-6533-439D-84D5-BB5F9AF95D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D1B1D92-6533-439D-84D5-BB5F9AF95D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFB3AF38-64C7-482A-928E-2C385E8E105F}
 	EndGlobalSection
 EndGlobal

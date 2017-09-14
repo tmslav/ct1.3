@@ -1,17 +1,20 @@
 ﻿(function (){
  angular.module('carsApp')
-    .controller('carOffersCtr', function ($scope, $http, selecetedCarService) {
-        $scope.cars = []
+     .controller('carOffersCtr', function ($scope, $http,$location, selecetedCarService, loginFactory) {
+         if (loginFactory.isLoggedin()) {
+            $scope.cars = []
+            $http.get("/api/values/").then(function (response) {
+                $scope.cars = response.data;
+            });
 
-        $http.get("/Content/cars-offers.json").then(function (response) {
-            $scope.cars = response.data.data;
-        });
+            $scope.selectCar = function (car) {
+               selecetedCarService.set(car)
+               console.log("selected:",car)
+            }
+         } else {
+             $location.path("/login")
+         }
 
-        $scope.selectCar = function (car) {
-           selecetedCarService.set(car)
-           console.log("selected:",car)
-
-        }
-    })
+        })
 })();
 

@@ -5,10 +5,10 @@
             <div class="carsOffers__item carsOffers__item--hover">
                 <div>
                     <a ng-click="selectCar(car)" ng-href="/#!/detail/">
-                        <img class="carsOffers__Image" ng-src="/Content/{{car.img}}" />
+                        <img class="carsOffers__Image" ng-src="{{car.imageUrl}}" />
                     </a>
                     <div class="carsOffers__Name">
-                        {{car.name}}
+                        {{car.carName}}
                     </div>
                 </div>
                 <div class="carsOffers__price">

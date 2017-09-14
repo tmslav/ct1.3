@@ -1,0 +1,10 @@
+C:\Users\tomislavrupcic\Documents\ct1.3\service\bin\Debug\netcoreapp1.1\service.deps.json
+C:\Users\tomislavrupcic\Documents\ct1.3\service\bin\Debug\netcoreapp1.1\service.runtimeconfig.json
+C:\Users\tomislavrupcic\Documents\ct1.3\service\bin\Debug\netcoreapp1.1\service.runtimeconfig.dev.json
+C:\Users\tomislavrupcic\Documents\ct1.3\service\bin\Debug\netcoreapp1.1\service.dll
+C:\Users\tomislavrupcic\Documents\ct1.3\service\bin\Debug\netcoreapp1.1\service.pdb
+C:\Users\tomislavrupcic\Documents\ct1.3\service\obj\Debug\netcoreapp1.1\service.csprojResolveAssemblyReference.cache
+C:\Users\tomislavrupcic\Documents\ct1.3\service\obj\Debug\netcoreapp1.1\service.csproj.CoreCompileInputs.cache
+C:\Users\tomislavrupcic\Documents\ct1.3\service\obj\Debug\netcoreapp1.1\service.AssemblyInfo.cs
+C:\Users\tomislavrupcic\Documents\ct1.3\service\obj\Debug\netcoreapp1.1\service.dll
+C:\Users\tomislavrupcic\Documents\ct1.3\service\obj\Debug\netcoreapp1.1\service.pdb

@@ -1,7 +1,11 @@
 ﻿(function (){
     angular.module('carsApp')
-    .controller('carDetailCtr', function ($scope,selecetedCarService) {
-        $scope.car = selecetedCarService.get()
+    .controller('carDetailCtr', function ($scope,$location,loginFactory,selecetedCarService) {
+        if (loginFactory.isLoggedin()) {
+            $scope.car = selecetedCarService.get()
+        } else {
+            $location.path("/login");
+        }
     })
 })();
 
