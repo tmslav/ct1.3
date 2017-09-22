@@ -53,6 +53,7 @@ C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\bin\System.Net.Http.Formattin
 C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\bin\System.Web.Http.xml
 C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\bin\System.Web.Http.WebHost.xml
 C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\bin\Newtonsoft.Json.xml
+C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\obj\Debug\angular1.3.csprojResolveAssemblyReference.cache
 C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\obj\Debug\angular1.3.csproj.CoreCompileInputs.cache
 C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\obj\Debug\angular1.3.dll
 C:\Users\tomislavrupcic\Documents\ct1.3\angular1.3\obj\Debug\angular1.3.pdb

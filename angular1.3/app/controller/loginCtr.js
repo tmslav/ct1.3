@@ -1,5 +1,5 @@
 ﻿(function () {
-    angular.module('carsApp')
+    angular.module('myApp')
         .controller('loginCtr', function ($scope,$location,loginFactory) {
             $scope.login = function (e) {
                 e.preventDefault();

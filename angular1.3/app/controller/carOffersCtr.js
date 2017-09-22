@@ -1,6 +1,6 @@
 ﻿(function (){
- angular.module('carsApp')
-     .controller('carOffersCtr', function ($scope, $http,$location, selecetedCarService, loginFactory) {
+ angular.module('myApp')
+     .controller('carOffersCtr', function ($scope, $http,$location, selecetedCarFactory, loginFactory) {
          if (loginFactory.isLoggedin()) {
             $scope.cars = []
             $http.get("/api/values/").then(function (response) {
@@ -8,7 +8,7 @@
             });
 
             $scope.selectCar = function (car) {
-               selecetedCarService.set(car)
+               selecetedCarFactory.set(car)
                console.log("selected:",car)
             }
          } else {

@@ -114,6 +114,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\controller\loginCtr.js" />
+    <Content Include="app\factory\loginFactory.js" />
+    <Content Include="app\factory\selectedCarFactory.js" />
     <Content Include="app\views\login.html" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -893,8 +895,8 @@
     <Content Include="app\controller\infoCtr.js" />
     <Content Include="app\views\car-offers.html" />
     <Content Include="app\controller\carOffersCtr.js" />
-    <Content Include="app\controller\carDetailCtr.js" />
-    <Content Include="app\views\carDetail.html" />
+    <Content Include="app\pages\details\controller\carDetailCtr.js" />
+    <Content Include="app\pages\details\views\carDetail.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\version.json" />

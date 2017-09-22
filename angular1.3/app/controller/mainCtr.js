@@ -1,5 +1,5 @@
 ﻿(function (){
-    angular.module('carsApp')
+    angular.module('myApp')
     .controller('mainCtr', function ($scope) {
         $scope.test = "test"
     })

@@ -5,28 +5,26 @@
         <script src="/Scripts/angular.min.js"></script>
 		<script src="/Scripts/angular-route.min.js"></script>
      
-		<script src="/app/app.js"></script>
-        <script src='/app/controller/infoCtr.js'></script>
-        <script src='/app/controller/mainCtr.js'></script>
-		<script src='/app/controller/carOffersCtr.js'></script>
-		<script src='/app/controller/carDetailCtr.js'></script>
-        <script src='/app/controller/loginCtr.js'></script>
-		<link rel='stylesheet' type='text/css' href="css/css.css"/>
+		<script src='/app/app.js' type="text/javascript"></script>
+        <script src='/app/factory/loginFactory.js' type="text/javascript"></script>
+        <script src='/app/factory/selectedCarFactory.js' type="text/javascript"></script>
+
+        <script src='/app/controller/infoCtr.js' type="text/javascript"></script>
+        <script src='/app/controller/mainCtr.js' type="text/javascript"></script>
+		<script src='/app/controller/carOffersCtr.js' type="text/javascript"></script>
+        <script src='/app/controller/loginCtr.js' type="text/javascript"></script>
+
+		<script src='/app/pages/details/controller/carDetailCtr.js' type="text/javascript"></script>
+	
+        <link rel='stylesheet' type='text/css' href="/css/css.css"/>
 
 	<style>
-body{
-  height: 100%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff920a+0,f9de84+93 */
-  background: #c87106; /* Old browsers */
-  opacity: 0.85;
-  margin: 0;
 
-}
 		</style>
 	</head>
 
 	
-<body ng-app="carsApp">
+<body >
 
 	@RenderBody()
 

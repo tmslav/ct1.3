@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.Mvc;
-using angular1.3;
-using angular1.3.Controllers;
+using angular1;
+using angular1.Controllers;
 
 namespace angular1.Tests.Controllers
 {
