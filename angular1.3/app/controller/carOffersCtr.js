@@ -1,6 +1,7 @@
 ﻿(function (){
  angular.module('myApp')
      .controller('carOffersCtr', function ($scope, $http,$location, selecetedCarFactory, loginFactory) {
+     debugger
          if (loginFactory.isLoggedin()) {
             $scope.cars = []
             $http.get("/api/values/").then(function (response) {

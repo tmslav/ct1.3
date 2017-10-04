@@ -1,5 +1,5 @@
 ﻿(function () {
-    angular.module("myApp", ['ngRoute','loginFactory','selectedCarFactory'])
+    angular.module("myApp", ['ngRoute'])
         .config(['$provide', function ($provide) {
             $provide.decorator('$log', [
                 '$delegate',
@@ -15,7 +15,6 @@
         }])
         .config(function ($routeProvider) {
             $routeProvider
-
                 .when("/info",
                 {
                     templateUrl: "app/views/info.html",

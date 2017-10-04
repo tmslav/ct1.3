@@ -1,10 +1,16 @@
-﻿<div ng-show="errorMessage" style="color:red">{{errorMessage}}</div>
-<form action="">
-    <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" ng-model="username" name="uname" required>
+﻿<div main-login>
+    <div ng-show="errorMessage" style="color:red">{{errorMessage}}</div>
+    <div>{{loginDuration}}</div>
 
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" ng-model="password" name="psw" required>
-
-    <button type="submit" ng-click="login($event)">Login</button>
-</form>
+    <form action="">
+        <div class="username">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" ng-model="username" name="uname" required>
+        </div>
+        <div class="password">
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" ng-model="password" name="psw" required>
+        </div>
+        <button type="submit" ng-click="login($event)">Login</button>
+    </form>
+</div>

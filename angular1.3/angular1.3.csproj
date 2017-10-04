@@ -98,6 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\service\" />
+    <Folder Include="app\directives\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -897,6 +898,9 @@
     <Content Include="app\controller\carOffersCtr.js" />
     <Content Include="app\pages\details\controller\carDetailCtr.js" />
     <Content Include="app\pages\details\views\carDetail.html" />
+    <Content Include="app\directives\login-directive.js" />
+    <Content Include="css\login.css" />
+    <Content Include="app\factory\timestampInterceptor.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\version.json" />

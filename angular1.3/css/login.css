@@ -1,0 +1,16 @@
+﻿.loginPanel {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+
+.loginPanel .username, .password {
+    padding:15px 5px;
+    
+}
+.loginPanel form {
+    text-align:center;
+}
+.loginPanel button {
+    width:100%;
+}

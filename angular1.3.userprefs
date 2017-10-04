@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{21012205-1249-48C2-986E-8DFEFDB342AE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="angular1.3/app/views/car-offers.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="angular1.3/app/factory/loginFactory.js">
     <Files>
-      <File FileName="angular1.3/Views/Shared/_Layout.cshtml" Line="13" Column="3" />
-      <File FileName="angular1.3/app/controller/carOffersCtr.js" Line="11" Column="31" />
-      <File FileName="angular1.3/app/controller/carDetailCtr.js" Line="4" Column="47" />
-      <File FileName="angular1.3/app/app.js" Line="29" Column="24" />
-      <File FileName="angular1.3/app/views/carDetail.html" Line="4" Column="18" />
-      <File FileName="angular1.3/app/views/car-offers.html" Line="7" Column="70" />
+      <File FileName="angular1.3/app/views/login.html" Line="3" Column="9" />
+      <File FileName="angular1.3/app/directives/login-directive.js" Line="18" Column="5" />
+      <File FileName="angular1.3/css/css.css" Line="1" Column="1" />
+      <File FileName="angular1.3/css/login.css" Line="15" Column="16" />
+      <File FileName="angular1.3/Views/Home/Index.cshtml" Line="17" Column="46" />
+      <File FileName="angular1.3/Views/Shared/_Layout.cshtml" Line="11" Column="55" />
+      <File FileName="angular1.3/app/factory/timestampInterceptor.js" Line="15" Column="76" />
+      <File FileName="angular1.3/app/factory/selectedCarFactory.js" Line="19" Column="6" />
+      <File FileName="angular1.3/app/factory/loginFactory.js" Line="29" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.angular1.3 PreferredExecutionTarget="MonoDevelop.Default" />

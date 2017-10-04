@@ -1,5 +1,5 @@
 ﻿(function () {
-    angular.module("myApp").factory('selecetedCarFactory',selectedCarFactory);
+    
 
     function selectedCarFactory() {
         var selectedcar = null
@@ -15,4 +15,5 @@
             set: set
         }
     }
+    angular.module("myApp").factory('selecetedCarFactory',selectedCarFactory);
 })();
